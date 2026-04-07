@@ -44,7 +44,7 @@ function App() {
             onChange={(e) => setText(e.target.value)} 
             placeholder="Enter task"
           />
-          <button className="btn btn-primary" onClick={addTask}>Add</button>
+          <button className="btn btn-success" onClick={addTask}>Add</button>
         </div>
       <ul className="list-group">
 
